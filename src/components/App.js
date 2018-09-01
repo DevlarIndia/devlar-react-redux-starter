@@ -1,5 +1,6 @@
 import React, {Component } from 'react';
 import  { BrowserRouter, Route } from 'react-router-dom';
+import { Button } from 'antd';
 
 class App extends Component{
 	
@@ -14,6 +15,7 @@ class App extends Component{
 					<Route exact path="/" component={Landing} />
 					<Route exact path="/something" component={Something} />
 					*/}
+					<Button type="primary">Button</Button>
 					</div>
 				</BrowserRouter>
 			</div>
